@@ -1,3 +1,3 @@
 # Traine
 
-Latihan Menggunakan GitHub lagi 
+Latihan gitHub untuk QA
