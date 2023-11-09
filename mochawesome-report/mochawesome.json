@@ -1,0 +1,119 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-09-21T17:09:53.112Z",
+    "end": "2023-09-21T17:09:54.461Z",
+    "duration": 1349,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "1a724151-8404-4c64-a189-6a9df3f6727d",
+      "title": "",
+      "fullFile": "C:\\Users\\Asus\\Traine\\test\\api\\chaiAssert.js",
+      "file": "\\test\\api\\chaiAssert.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f3c557be-fcbc-49a7-a086-5de8d0a0f0c7",
+          "title": "post request example",
+          "fullFile": "C:\\Users\\Asus\\Traine\\test\\api\\chaiAssert.js",
+          "file": "\\test\\api\\chaiAssert.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Respone Status Equal to 200",
+              "fullTitle": "post request example Respone Status Equal to 200",
+              "timedOut": false,
+              "duration": 1332,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "//check respone status must be equal to 200\nexpect((await respone).status).to.equal(200)",
+              "err": {},
+              "uuid": "f98fa211-1f75-4b93-a6b5-455da6815bb2",
+              "parentUUID": "f3c557be-fcbc-49a7-a086-5de8d0a0f0c7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Respone Body to haveOwnProperthy",
+              "fullTitle": "post request example Respone Body to haveOwnProperthy",
+              "timedOut": false,
+              "duration": 2,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// Expect in Respone Body must be include value \"Message\"\nexpect((await respone).body).to.haveOwnProperty(`message`)",
+              "err": {},
+              "uuid": "13351a3a-89b9-4622-a200-cb429355e703",
+              "parentUUID": "f3c557be-fcbc-49a7-a086-5de8d0a0f0c7",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f98fa211-1f75-4b93-a6b5-455da6815bb2",
+            "13351a3a-89b9-4622-a200-cb429355e703"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1334,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
